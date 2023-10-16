@@ -1,13 +1,19 @@
 package CadastroExibição;
+
 // Importação de Classes.
 
 import javax.swing.JOptionPane;
 import java.util.Random;
+
 public class CadastroDeCarteirinhas {
+
     String nome,nascimento,endereco,telefone,cidade,cpf;
+
     Random r = new Random();
     int númeroDeCadastro;
+
     void CadastroCarteirinha(){
+
         nome = JOptionPane.showInputDialog("Digite seu nome!");
         nascimento = JOptionPane.showInputDialog("Digite sua data de nascimento!");
         endereco = JOptionPane.showInputDialog("Digite seu endereço!");
